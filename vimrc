@@ -48,7 +48,7 @@ Plug 'jparise/vim-graphql'
 Plug 'scrooloose/syntastic'
 Plug 'yggdroot/indentline'
 Plug 'symfony/symfony'
-Plug 'blueshirts/darcula'
+
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }

@@ -32,9 +32,6 @@ Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
 " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
-" Unmanaged plugin (manually installed and updated)
-Plug '~/my-prototype-plugin'
-
 " Initialize plugin system
 
 Plug 'vim-scripts/taglist.vim'
@@ -48,7 +45,9 @@ Plug 'jparise/vim-graphql'
 Plug 'scrooloose/syntastic'
 Plug 'yggdroot/indentline'
 Plug 'symfony/symfony'
-
+Plug 'amiorin/vim-project'
+Plug 'stephpy/vim-php-cs-fixer'
+Plug 'ncm2/ncm2'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -61,7 +60,7 @@ call plug#end()
 set number
 syntax enable
 set background=dark
-colorscheme onedark
+colorscheme onedark"
 set laststatus=2
 set tabstop=4
 set softtabstop=0 noexpandtab

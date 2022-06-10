@@ -1,5 +1,4 @@
-# vim-config
-My vim config file.
+#Ersan’s vim dotfiles 
 
 ## Installation
 
